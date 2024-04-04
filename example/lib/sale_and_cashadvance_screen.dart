@@ -94,7 +94,11 @@ class _SaleAndCashAdvanceScreensState extends State<SaleAndCashAdvanceScreens> {
 
       data.addAll({
         "amount": _amount,
-        "paymentApp": "softpos_szzt",
+        "paymentApp": "softpos",
+        "industrySpecific1": "Test industry", //optional Provider name optional
+        "industrySpecific2": "industry_data2", //optional
+        "industrySpecific3": "specific data 3", //optional
+        "industrySpecific4": "data 4", //optional
       });
 
       if (Platform.isIOS) {
